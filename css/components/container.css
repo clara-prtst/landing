@@ -1,0 +1,26 @@
+.container {
+	width: 600px;
+	margin: 3 auto;
+}
+
+
+@media (max-width: 900px); {
+	/* For a screen < 900px, this CSS will be readed */
+	.container {
+		width: 750px;
+	}
+}
+
+@media (max-width: 760px); {
+	/* For a screen < 760px, this CSS will be readed */
+	.container {
+		width: 550px;
+	}
+}
+
+@media (max-width: 570px); {
+	/* For a screen < 570px, this CSS will be readed */
+	.container {
+		width: 330px;
+	}
+}
